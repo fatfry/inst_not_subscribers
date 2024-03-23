@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "not-sub"
+version = "0.1.0"
+description = ""
+authors = ["oleg <fatfry@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+load-dotenv = "^0.1.0"
+playwright = "^1.42.0"
+npm = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
